@@ -1,0 +1,13 @@
+address: http://10.11.12.253:8000
+maximum_scale: 2
+name: cluster-c6g.16xlarge
+partition: compute
+worker_instance_type: c6g.16xlarge
+scheduler_instance_type: c6g.medium
+
+handler: smina
+handler_config: config.txt
+input_path: ../dude-ppard/DUDE_ppard/actives
+receptor: receptor.pdbqt
+output: results
+cost_per_cpu: 0.034

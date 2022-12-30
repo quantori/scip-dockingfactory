@@ -1,0 +1,15 @@
+address: http://10.11.15.36:8000
+maximum_scale: 1
+name: RDOCK
+partition: compute
+worker_instance_type: c6g.16xlarge
+scheduler_instance_type: c6g.medium
+
+handler: rdock
+rdock_protocol: dock.prm
+rdock_recdef: sys.prm
+rdock_root: "."
+rdock_nruns: 2
+input_path: sd_files
+output: out
+cost_per_cpu: 0.034

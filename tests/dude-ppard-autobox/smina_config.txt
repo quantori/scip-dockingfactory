@@ -1,0 +1,3 @@
+autobox_ligand = /home/username/dockingfactory/tests/dude-ppard-autobox/crystal_ligand.pdbqt
+exhaustiveness = 3
+scoring = vinardo

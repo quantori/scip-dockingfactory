@@ -1,0 +1,13 @@
+address: http://10.11.15.136:8000
+maximum_scale: 2
+name: cluster-c6g.medium
+partition: compute
+worker_instance_type: c6g.16xlarge
+scheduler_instance_type: c6g.medium
+
+handler: smina
+handler_config: smina_config.txt
+input_path: ligands
+receptor: receptor.pdbqt
+output: out
+cost_per_cpu: 0.034

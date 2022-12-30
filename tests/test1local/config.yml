@@ -1,0 +1,5 @@
+handler: smina
+handler_config: smina_config.txt
+input_path: ligands
+receptor: receptor.pdbqt
+output: out

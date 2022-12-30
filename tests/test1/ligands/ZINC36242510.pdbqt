@@ -1,0 +1,75 @@
+REMARK  Name = ZINC36242510
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2
+REMARK    2  A    between atoms: C2_2  and  C3_3
+REMARK    3  A    between atoms: C2_2  and  C4_4
+REMARK    4  A    between atoms: C2_2  and  O5_27
+REMARK    5  A    between atoms: C6_8  and  C13_19
+REMARK    6  A    between atoms: C7_10  and  C8_13
+REMARK    7  A    between atoms: C13_19  and  C14_20
+REMARK    8  A    between atoms: C15_21  and  C16_22
+REMARK    9  A    between atoms: C16_22  and  C17_23
+REMARK   10  A    between atoms: C17_23  and  C18_24
+REMARK   11  A    between atoms: O5_27  and  C19_28
+REMARK   12  A    between atoms: C24_33  and  S1_34
+REMARK   13  A    between atoms: S1_34  and  C25_37
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -0.345  -0.432  -0.263  0.00  0.00    +0.334 C 
+ATOM      2  O   UNL     1      -0.987   0.004  -1.464  0.00  0.00    -0.364 OA
+ATOM      3  C   UNL     1      -2.285  -0.564  -1.663  0.00  0.00    +0.221 C 
+ATOM      4  C   UNL     1      -2.162  -2.091  -1.684  0.00  0.00    -0.045 C 
+ATOM      5  C   UNL     1      -1.458  -2.549  -0.402  0.00  0.00    +0.265 C 
+ATOM      6  O   UNL     1      -0.212  -1.856  -0.283  0.00  0.00    -0.368 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  C   UNL     1      -2.327  -2.238   0.790  0.00  0.00    -0.171 A 
+ATOM      8  C   UNL     1      -3.698  -2.437   0.730  0.00  0.00    +0.077 A 
+ATOM      9  C   UNL     1      -4.458  -2.137   1.850  0.00  0.00    -0.030 A 
+ATOM     10  C   UNL     1      -3.828  -1.653   2.981  0.00  0.00    +0.251 A 
+ATOM     11  N   UNL     1      -2.521  -1.476   3.002  0.00  0.00    -0.482 NA
+ATOM     12  C   UNL     1      -1.767  -1.756   1.957  0.00  0.00    +0.260 A 
+ENDBRANCH   5   7
+BRANCH   1  14
+ATOM     13  C   UNL     1       0.896   1.728  -0.066  0.00  0.00    +0.051 C 
+ATOM     14  C   UNL     1       1.041   0.208  -0.164  0.00  0.00    +0.136 C 
+ATOM     15  C   UNL     1       1.758  -0.317   1.082  0.00  0.00    +0.049 C 
+BRANCH  14  16
+ATOM     16  O   UNL     1       1.803  -0.124  -1.327  0.00  0.00    -0.278 OA
+BRANCH  16  17
+ATOM     17  C   UNL     1       3.077   0.346  -1.385  0.00  0.00    +0.229 A 
+ATOM     18  C   UNL     1       3.565   1.157  -0.370  0.00  0.00    -0.089 A 
+ATOM     19  C   UNL     1       4.860   1.633  -0.431  0.00  0.00    +0.097 A 
+ATOM     20  C   UNL     1       5.670   1.303  -1.502  0.00  0.00    -0.048 A 
+ATOM     21  C   UNL     1       5.186   0.496  -2.515  0.00  0.00    +0.163 A 
+ATOM     22  C   UNL     1       3.893   0.012  -2.455  0.00  0.00    -0.691 A 
+BRANCH  22  23
+ATOM     23  S   UNL     1       3.279  -1.022  -3.743  0.00  0.00    +2.497 S 
+ATOM     24  C   UNL     1       2.981  -2.627  -2.950  0.00  0.00    -0.250 C 
+ATOM     25  O   UNL     1       4.352  -1.125  -4.668  0.00  0.00    -0.947 OA
+ATOM     26  O   UNL     1       2.045  -0.430  -4.127  0.00  0.00    -0.908 OA
+ENDBRANCH  22  23
+ENDBRANCH  16  17
+ENDBRANCH  14  16
+ENDBRANCH   1  14
+BRANCH   4  27
+ATOM     27  C   UNL     1      -1.345  -2.523  -2.903  0.00  0.00    +0.084 C 
+BRANCH  27  28
+ATOM     28  C   UNL     1      -1.352  -4.027  -3.006  0.00  0.00    -0.088 C 
+ATOM     29  C   UNL     1      -1.827  -4.608  -4.079  0.00  0.00    -0.034 C 
+BRANCH  29  30
+ATOM     30  C   UNL     1      -2.125  -3.790  -5.309  0.00  0.00    +0.061 C 
+BRANCH  30  31
+ATOM     31  C   UNL     1      -1.305  -4.322  -6.487  0.00  0.00    -0.066 C 
+BRANCH  31  32
+ATOM     32  C   UNL     1      -1.525  -3.442  -7.690  0.00  0.00    +0.489 C 
+ATOM     33  O   UNL     1      -1.039  -3.748  -8.766  0.00  0.00    -0.708 OA
+ATOM     34  O   UNL     1      -2.190  -2.425  -7.589  0.00  0.00    -0.697 OA
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  27  28
+ENDBRANCH   4  27
+TORSDOF 10
