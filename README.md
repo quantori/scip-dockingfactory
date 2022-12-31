@@ -6,6 +6,15 @@ Docking Factory is a command line tool to automate molecular docking runs on an 
 
 See the [DockingFactory Bundle](https://github.com/quantori/scip-dockingfactory-bundle) repo for detailed information.
 
+## Bundle
+
+DockingFactory is usually installed as part of [Quantori DockingFactory Bundle](https://github.com/quantori/scip-dockingfactory-bundle). Other projects that are also parts of the bundle are:
+- [DockingInterface](https://github.com/quantori/scip-dockinginterface)
+- [Vina](https://github.com/quantori/scip-vina)
+- [Smina](https://github.com/quantori/scip-smina)
+- [QVina 2](https://github.com/quantori/scip-qvina)
+- [rDock](https://github.com/quantori/scip-rdock)
+
 ## Installation
 
 See the [DockingFactory Bundle](https://github.com/quantori/scip-dockingfactory-bundle) repo for installation instructions.
